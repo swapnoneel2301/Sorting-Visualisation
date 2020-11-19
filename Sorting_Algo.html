@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SORTING VISUALISER</title>
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Sorting visualizer</title>
+	<link rel="stylesheet" type="text/css" href="Sorting_Algo.css">
+</head>
+
+
+<body>
+	
+   <header>
+   	  <nav>
+   	  	 
+   	  	 <div class="inputs_of_array">
+   	  	 	    <p>Size of the array:</p>
+                <input id="arr_size" type="range" min=20 max=150 step=1 value=70>
+                <p>Speed of Array</p>
+                <input id="arr_speed" type="range" min=1 max=5 step=1 value=4>
+                <!--<p>Speed of the algorithm:</p>
+                <input id="a_speed" type="range" min=1 max=5 step=1 value=4>-->
+                <button id="arr_generate">Generate New Array!</button>
+
+   	  	 </div>
+
+         <div class="right_content">
+                <p class="nav-heading">Sorting visualizer</p>
+                
+
+                <div class="algo">
+                    <button >Bubble</button>
+                    <button >Selection</button>
+                    <button >Insertion</button>
+                    <button >Merge</button>
+                    <button >Quick</button>
+         </div>
+
+   	  </nav>
+   </header>
+
+   <section>
+   	  <div id="left-part">
+   	  	
+   	  </div>
+      
+      <div id="container_arr">
+   	  	
+   	  </div>
+
+      <div id="right-part">
+   	  	
+   	  </div>
+
+   </section>
+
+
+   <script type="text/javascript" src="Sorting_Algo.js"></script>
+   <script type="text/javascript" src="BubbleSort.js"></script>
+   <script type="text/javascript" src="SelectionSort.js"></script>
+   <script type="text/javascript" src="InsertionSort.js"></script>
+   <script type="text/javascript" src="MergeSort.js"></script>
+   <script type="text/javascript" src="QuickSort.js"></script>
+</body>
+
+
+
+</html>
